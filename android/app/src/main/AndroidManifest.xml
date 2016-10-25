@@ -26,6 +26,11 @@
         </intent-filter>
       </activity>
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+      <meta-data
+  android:name="io.Digits.ApiKey"
+  android:value="UjcKPO7Hgyl3GBcc9xIU0mQfi" />
+<meta-data
+  android:name="io.Digits.ApiSecret"
+  android:value="aspZc1v1BtiV0y9IvVSB3UhMnmR1hG5GL0C4fiEAj2R9NQEugN" />
     </application>
-
 </manifest>

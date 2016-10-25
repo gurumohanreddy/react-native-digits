@@ -1,3 +1,6 @@
 rootProject.name = 'GenTrack'
 
 include ':app'
+
+include ':react-native-fabric-digits'
+project(':react-native-fabric-digits').projectDir = new File(settingsDir, '../node_modules/react-native-fabric-digits/android')
